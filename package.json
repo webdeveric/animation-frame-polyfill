@@ -2,7 +2,7 @@
   "name": "animation-frame-polyfill",
   "title": "Animation Frame Polyfill",
   "description": "Polyfill requestAnimationFrame and cancelAnimationFrame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "email": "eric@webdeveric.com",
@@ -40,8 +40,7 @@
     "build": "npm run build:cjs && npm run build:module",
     "prepublish": "npm run lint && npm run build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.0",
     "babel-eslint": "^7.0",
