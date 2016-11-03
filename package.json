@@ -27,15 +27,17 @@
   "bugs": {
     "url": "https://github.com/webdeveric/animation-frame-polyfill/issues"
   },
-  "main": "lib/animation-frame-polyfill.js",
-  "jsnext:main": "src/animation-frame-polyfill.js",
+  "main": "lib/animation-frame-polyfill.cjs.js",
+  "jsnext:main": "lib/animation-frame-polyfill.module.js",
   "files": [
     "lib/",
     "src/"
   ],
   "scripts": {
     "lint": "eslint -c eslint-config-webdeveric --fix src",
-    "build": "babel src --out-dir lib --compact",
+    "build:cjs": "babel src -o lib/animation-frame-polyfill.cjs.js --no-babelrc --presets es2015",
+    "build:module": "babel src -o lib/animation-frame-polyfill.module.js",
+    "build": "npm run build:cjs && npm run build:module",
     "prepublish": "npm run lint && npm run build"
   },
   "dependencies": {
