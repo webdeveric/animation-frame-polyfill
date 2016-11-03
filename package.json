@@ -35,8 +35,8 @@
   ],
   "scripts": {
     "lint": "eslint -c eslint-config-webdeveric --fix src",
-    "build:cjs": "babel src -o lib/animation-frame-polyfill.cjs.js --no-babelrc --presets es2015 --compact",
-    "build:module": "babel src -o lib/animation-frame-polyfill.module.js --compact",
+    "build:cjs": "babel src -o lib/animation-frame-polyfill.cjs.js --no-babelrc --presets es2015",
+    "build:module": "babel src -o lib/animation-frame-polyfill.module.js",
     "build": "npm run build:cjs && npm run build:module",
     "prepublish": "npm run lint && npm run build"
   },
