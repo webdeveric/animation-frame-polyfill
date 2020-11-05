@@ -1,7 +1,6 @@
 const prefix = [ 'webkit', 'moz', 'ms', 'o' ];
 
 export const requestAnimationFrame = (() => {
-
   for ( let i = 0, limit = prefix.length ; i < limit && ! window.requestAnimationFrame ; ++i ) {
     window.requestAnimationFrame = window[ prefix[ i ] + 'RequestAnimationFrame' ];
   }
@@ -24,7 +23,6 @@ export const requestAnimationFrame = (() => {
 })();
 
 export const cancelAnimationFrame = (() => {
-
   for ( let i = 0, limit = prefix.length ; i < limit && ! window.cancelAnimationFrame ; ++i ) {
     window.cancelAnimationFrame = window[ prefix[ i ] + 'CancelAnimationFrame' ] || window[ prefix[ i ] + 'CancelRequestAnimationFrame' ];
   }
