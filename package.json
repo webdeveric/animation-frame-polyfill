@@ -53,9 +53,9 @@
     "@babel/core": "^7.12.3",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
+    "@webdeveric/eslint-config-babel": "^0.1.1",
     "core-js": "^3.7.0",
     "eslint": "^7.13.0",
-    "eslint-config-webdeveric": "^0.7.0",
     "rimraf": "^3.0.2"
   }
 }
