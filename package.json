@@ -49,13 +49,13 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
-    "@babel/eslint-parser": "^7.12.13",
-    "@babel/preset-env": "^7.12.13",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.13",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
     "@webdeveric/eslint-config-babel": "^0.1.1",
-    "core-js": "^3.8.3",
-    "eslint": "^7.19.0",
+    "core-js": "^3.9.1",
+    "eslint": "^7.23.0",
     "rimraf": "^3.0.2"
   }
 }
