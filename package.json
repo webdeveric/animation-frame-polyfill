@@ -45,15 +45,17 @@
     "build:module": "babel src -o lib/animation-frame-polyfill.module.js",
     "prebuild": "npm run clean",
     "build": "npm run build:cjs && npm run build:module",
-    "prepublishOnly": "npm run lint && npm run build"
+    "spellcheck": "cspell --no-progress './**/*'",
+    "prepublishOnly": "npm run spellcheck && npm run lint && npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.13",
     "@babel/eslint-parser": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
-    "@webdeveric/eslint-config-babel": "^0.1.1",
+    "@webdeveric/eslint-config-babel": "^0.2.2",
     "core-js": "^3.9.1",
+    "cspell": "^5.9.0",
     "eslint": "^7.23.0",
     "rimraf": "^3.0.2"
   }

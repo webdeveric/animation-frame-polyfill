@@ -1,0 +1,14 @@
+{
+  "version": "0.2",
+  "words": [
+    "browserslist",
+    "corejs",
+    "jsnext",
+    "prebuild",
+    "webdeveric"
+  ],
+  "ignorePaths": [
+    "package-lock.json",
+    "node_modules/**"
+  ]
+}
