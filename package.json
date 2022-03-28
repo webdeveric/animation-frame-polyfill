@@ -53,10 +53,10 @@
     "@babel/core": "^7.13.13",
     "@babel/eslint-parser": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
-    "@webdeveric/eslint-config-babel": "^0.2.2",
+    "@webdeveric/eslint-config-babel": "^0.2.4",
     "core-js": "^3.9.1",
     "cspell": "^5.9.0",
-    "eslint": "^7.23.0",
+    "eslint": "^8.12.0",
     "rimraf": "^3.0.2"
   }
 }
