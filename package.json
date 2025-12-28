@@ -44,10 +44,10 @@
     "lint": "eslint --fix src",
     "build:cjs": "babel src -o lib/animation-frame-polyfill.cjs.js --no-babelrc --presets=@babel/preset-env",
     "build:module": "babel src -o lib/animation-frame-polyfill.module.js",
-    "prebuild": "npm run clean",
-    "build": "npm run build:cjs && npm run build:module",
+    "prebuild": "pnpm clean",
+    "build": "pnpm build:cjs && pnpm build:module",
     "spellcheck": "cspell --no-progress './**/*'",
-    "prepublishOnly": "npm run spellcheck && npm run lint && npm run build"
+    "prepublishOnly": "pnpm spellcheck && pnpm lint && pnpm build"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.3",
