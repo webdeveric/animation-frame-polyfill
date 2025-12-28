@@ -1,0 +1,4 @@
+ignoredBuiltDependencies:
+  - core-js
+
+minimumReleaseAge: 2880 # 2 days
