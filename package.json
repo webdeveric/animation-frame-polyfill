@@ -27,6 +27,7 @@
   "bugs": {
     "url": "https://github.com/webdeveric/animation-frame-polyfill/issues"
   },
+  "packageManager": "pnpm@10.26.2+sha512.0e308ff2005fc7410366f154f625f6631ab2b16b1d2e70238444dd6ae9d630a8482d92a451144debc492416896ed16f7b114a86ec68b8404b2443869e68ffda6",
   "main": "lib/animation-frame-polyfill.cjs.js",
   "module": "lib/animation-frame-polyfill.module.js",
   "jsnext:main": "lib/animation-frame-polyfill.module.js",
@@ -49,14 +50,14 @@
     "prepublishOnly": "npm run spellcheck && npm run lint && npm run build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.13",
-    "@babel/eslint-parser": "^7.13.10",
-    "@babel/preset-env": "^7.13.12",
-    "@webdeveric/eslint-config-babel": "^0.2.6",
-    "core-js": "^3.9.1",
-    "cspell": "^6.18.1",
-    "eslint": "^8.12.0",
-    "rimraf": "^3.0.2"
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/eslint-parser": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@webdeveric/eslint-config-babel": "^0.4.3",
+    "core-js": "^3.47.0",
+    "cspell": "^9.4.0",
+    "eslint": "^8.57.1",
+    "rimraf": "^6.1.2"
   }
 }
