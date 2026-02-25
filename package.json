@@ -50,14 +50,14 @@
     "prepublishOnly": "pnpm spellcheck && pnpm lint && pnpm build"
   },
   "devDependencies": {
-    "@babel/cli": "^7.28.3",
-    "@babel/core": "^7.28.5",
-    "@babel/eslint-parser": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
-    "@webdeveric/eslint-config-babel": "^0.4.3",
-    "core-js": "^3.47.0",
-    "cspell": "^9.4.0",
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/eslint-parser": "^7.28.6",
+    "@babel/preset-env": "^7.29.0",
+    "@webdeveric/eslint-config-babel": "^0.4.4",
+    "core-js": "^3.48.0",
+    "cspell": "^9.7.0",
     "eslint": "^8.57.1",
-    "rimraf": "^6.1.2"
+    "rimraf": "^6.1.3"
   }
 }
