@@ -26,13 +26,13 @@ jobs:
           install: false # Audit before installing dependencies
 
       - name: Audit dependencies
-        continue-on-error: true # This can fail with "Missing registry metadata for node@<version>"
         run: pnpm audit --audit-level=moderate --prod
 
       - name: Installing dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Verify registry signatures for installed packages
+        continue-on-error: true # This can fail with "Missing registry metadata for node@<version>"
         run: pnpm audit signatures
 
       - name: Linting
